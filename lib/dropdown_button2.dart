@@ -1928,4 +1928,3 @@ class _DropdownButtonFormFieldState<T> extends FormFieldState<T> {
     }
   }
 }
-
