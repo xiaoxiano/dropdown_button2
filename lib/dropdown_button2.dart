@@ -374,10 +374,7 @@ class _DropdownMenuRouteLayout<T> extends SingleChildLayoutDelegate {
     required this.textDirection,
     required this.itemHeight,
     this.itemWidth,
-<<<<<<< HEAD
     this.dropdownWidth,
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
     required this.offset,
   });
 
@@ -386,10 +383,7 @@ class _DropdownMenuRouteLayout<T> extends SingleChildLayoutDelegate {
   final TextDirection? textDirection;
   final double itemHeight;
   final double? itemWidth;
-<<<<<<< HEAD
   final double? dropdownWidth;
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
   final Offset offset;
 
   @override
@@ -405,11 +399,7 @@ class _DropdownMenuRouteLayout<T> extends SingleChildLayoutDelegate {
     // The width of a menu should be at most the view width. This ensures that
     // the menu does not extend past the left and right edges of the screen.
     final double width =
-<<<<<<< HEAD
         dropdownWidth ?? math.min(constraints.maxWidth, buttonRect.width);
-=======
-        itemWidth ?? math.min(constraints.maxWidth, buttonRect.width);
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
     return BoxConstraints(
       minWidth: width,
       maxWidth: width,
@@ -499,10 +489,7 @@ class _DropdownRoute<T> extends PopupRoute<_DropdownRouteResult<T>> {
     required this.itemHeight,
     this.itemWidth,
     this.menuMaxHeight,
-<<<<<<< HEAD
     this.dropdownWidth,
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
     this.dropdownDecoration,
     this.dropdownPadding,
     this.scrollbarRadius,
@@ -527,10 +514,7 @@ class _DropdownRoute<T> extends PopupRoute<_DropdownRouteResult<T>> {
   final double itemHeight;
   final double? itemWidth;
   final double? menuMaxHeight;
-<<<<<<< HEAD
   final double? dropdownWidth;
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
   final BoxDecoration? dropdownDecoration;
   final EdgeInsetsGeometry? dropdownPadding;
   final Radius? scrollbarRadius;
@@ -572,10 +556,7 @@ class _DropdownRoute<T> extends PopupRoute<_DropdownRouteResult<T>> {
           capturedThemes: capturedThemes,
           style: style,
           enableFeedback: enableFeedback,
-<<<<<<< HEAD
           dropdownWidth: dropdownWidth,
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
           dropdownDecoration: dropdownDecoration,
           dropdownPadding: dropdownPadding,
           menuMaxHeight: menuMaxHeight,
@@ -706,10 +687,7 @@ class _DropdownRoutePage<T> extends StatelessWidget {
     required this.capturedThemes,
     this.style,
     required this.enableFeedback,
-<<<<<<< HEAD
     this.dropdownWidth,
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
     this.dropdownDecoration,
     this.dropdownPadding,
     this.menuMaxHeight,
@@ -733,10 +711,7 @@ class _DropdownRoutePage<T> extends StatelessWidget {
   final CapturedThemes capturedThemes;
   final TextStyle? style;
   final bool enableFeedback;
-<<<<<<< HEAD
   final double? dropdownWidth;
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
   final BoxDecoration? dropdownDecoration;
   final EdgeInsetsGeometry? dropdownPadding;
   final double? menuMaxHeight;
@@ -799,10 +774,7 @@ class _DropdownRoutePage<T> extends StatelessWidget {
               textDirection: textDirection,
               itemHeight: itemHeight,
               itemWidth: itemWidth,
-<<<<<<< HEAD
               dropdownWidth: dropdownWidth,
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
               offset: offset,
             ),
             child: capturedThemes.wrap(menu),
@@ -1493,10 +1465,7 @@ class _DropdownButton2State<T> extends State<DropdownButton2<T>>
       itemHeight: widget.itemHeight,
       itemWidth: widget.dropdownWidth,
       menuMaxHeight: widget.dropdownMaxHeight,
-<<<<<<< HEAD
       dropdownWidth: widget.dropdownWidth,
-=======
->>>>>>> 8d8e66ca6d9b3a515861d5ea0499d8512fd5bd33
       dropdownDecoration: widget.dropdownDecoration,
       dropdownPadding: widget.dropdownPadding,
       scrollbarRadius: widget.scrollbarRadius,
@@ -1959,3 +1928,4 @@ class _DropdownButtonFormFieldState<T> extends FormFieldState<T> {
     }
   }
 }
+
