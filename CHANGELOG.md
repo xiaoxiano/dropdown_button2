@@ -1,3 +1,17 @@
+## 1.5.2
+* Allow opening the button programmatically using GlobalKey. close #33.
+
+## 1.5.1
+* Use PlatformDispatcher.instance over window.
+* Use super parameters lint.
+* Add Multiselect Dropdown with Checkboxes Example.
+* Update README.
+
+## 1.5.0
+### Breaking Changes:
+* Flutter 3.0.0 upgrade.
+* Update README.
+
 ## 1.4.0
 ### Breaking Changes:
 * Remove onTap parameter.
